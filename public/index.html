@@ -11,30 +11,92 @@
 		<link rel="stylesheet" href="/css/style.css" />
 		<title>Hits of the moment | Music player</title>
 	</head>
-	<body>
-		<main>
+	<body id="page-layout">
+		<main id="main-content">
 			<section id="playlist-info">
-				<img src="/images/2098157264.jpeg" />
-				Playlist Hits of the moment By Fábio - Deezer Pop Editor 2016 · 60 songs
-				· 162 minutes
+				<div id="header-container">
+					<img src="/images/2098157264.jpeg" id="album-cover" />
+					<div id="info-container">
+						<div class="text-normal">Playlist</div>
+						<h1 class="text-title">Hits of the moment</h1>
+						<div class="text-normal">
+							<div>By Fábio - Deezer Pop Editor</div>
+							<div>2016 · 60 songs · 162 minutes</div>
+						</div>
+					</div>
+				</div>
 			</section>
-			Stay The Kid Laroi INDUSTRY BABY Lil Nas X Woman Doja Cat Bad Habits Ed
-			Sheeran Way 2 Sexy Drake Pepas Farruko Take My Breath The Weeknd Happier
-			Than Ever Billie Eilish
+
+			<div id="playlist-content">
+				<div class="track">
+					<div class="track-title">Stay</div>
+					<div class="track-artist">The Kid Laroi</div>
+				</div>
+				<div class="track">
+					<div class="track-title">INDUSTRY BABY</div>
+					<div class="track-artist">Lil Nas X</div>
+				</div>
+				<div class="track">
+					<div class="track-title">Woman</div>
+					<div class="track-artist">Doja Cat</div>
+				</div>
+				<div class="track">
+					<div class="track-title">Bad Habits</div>
+					<div class="track-artist">Ed Sheeran</div>
+				</div>
+				<div class="track">
+					<div class="track-title">Way 2 Sexy</div>
+					<div class="track-artist">Drake</div>
+				</div>
+				<div class="track">
+					<div class="track-title">Pepas</div>
+					<div class="track-artist">Farruko</div>
+				</div>
+				<div class="track">
+					<div class="track-title">Take My Breath</div>
+					<div class="track-artist">The Weeknd</div>
+				</div>
+				<div class="track">
+					<div class="track-title">Happier Than Ever</div>
+					<div class="track-artist">Billie Eilish</div>
+				</div>
+			</div>
 		</main>
 
 		<aside id="player">
-			<img src="/images/242430582.jpeg" alt="Stay" />
-			STAY The Kid Laroi
+			<div id="player-info">
+				<img id="player-album-cover" src="/images/242430582.jpeg" alt="Stay" />
+				<div>
+					<div class="text-subtitle">STAY</div>
+					<div class="text-small">The Kid Laroi</div>
+				</div>
+			</div>
 
-			<img src="/icons/skip_previous.svg" alt="Skip Previous" />
-			<img src="/icons/pause.svg" alt="Pause" />
-			<img src="/icons/skip_next.svg" alt="Skip Next" />
+			<div id="control-buttons">
+				<img
+					class="control-icon"
+					src="/icons/skip_previous.svg"
+					alt="Skip Previous"
+				/>
+				<img class="control-icon" src="/icons/pause.svg" alt="Pause" />
+				<img class="control-icon" src="/icons/skip_next.svg" alt="Skip Next" />
+			</div>
 
-			Powered by
-			<img src="/images/deezer-logo.svg" alt="Deezer logo" />
+			<div id="deezer-info">
+				<div>
+					<div class="text-overline">Powered by</div>
+					<img
+						id="deezer-logo"
+						src="/images/deezer-logo.svg"
+						alt="Deezer logo"
+					/>
+				</div>
+			</div>
 		</aside>
 
-		<aside id="queue">Play next · 0 tracks This queue is empty</aside>
+		<aside id="queue">
+			<div class="text-normal" id="queue-header">Play next · 0 tracks</div>
+			<div class="text-normal" id="queue-message">This queue is empty</div>
+		</aside>
 	</body>
 </html>
