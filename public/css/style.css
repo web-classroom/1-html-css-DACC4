@@ -30,31 +30,31 @@ h6 {
 .text-title {
 	font-size: 48px;
 	font-weight: 700;
-	line-height: 60px; /* 125% */
+	line-height: 60px;
 }
 
 .text-subtitle {
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 700;
-	line-height: 24px; /* 150% */
+	line-height: 21px;
 }
 
 .text-normal {
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 24px; /* 150% */
+	line-height: 24px;
 }
 
 .text-small {
 	font-size: 14px;
 	font-weight: 400;
-	line-height: 21px; /* 150% */
+	line-height: 21px;
 }
 
 .text-overline {
 	font-size: 12px;
 	font-weight: 400;
-	line-height: 18px; /* 150% */
+	line-height: 18px;
 }
 
 /**
@@ -114,11 +114,13 @@ h6 {
 
 .track-title {
 	font-size: 16px;
+	line-height: 24px;
 	font-weight: bold;
 }
 
 .track-artist {
-	font-size: 14px;
+	font-size: 16px;
+	line-height: 24px;
 	font-weight: normal;
 }
 
